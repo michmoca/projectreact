@@ -8,6 +8,3 @@ RUN npm install
 COPY . .
 
 CMD  ["npm", "run", "start"]
-
-#docker run -it -p 3000:3000 IMAGE_ID
-#sha256:f7506cd69f6466286c1cfaeded8cac26097d969717af459ce932f03f2777e0bd
